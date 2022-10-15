@@ -15,6 +15,11 @@
               <div
                 class="bg-gradient-success shadow-success border-radius-lg py-3 pe-1"
               >
+
+              <center>
+              <div class="logo"><img src="../assets/img/logoTodes.jpg" width="125" height="125"></div>
+              </center>
+
                 <h4 class="text-white font-weight-bolder text-center mt-2 mb-0">
                   Registrarse
                 </h4>
