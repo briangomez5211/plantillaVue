@@ -1,12 +1,15 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Dashboard from "../views/Dashboard.vue";
 import Tables from "../views/Tables.vue";
-import Billing from "../views/Billing.vue";
-import Notifications from "../views/Notifications.vue";
 import Profile from "../views/Profile.vue";
 import SignIn from "../views/SignIn.vue";
 import SignUp from "../views/SignUp.vue";
-
+import Eventos from "../views/Eventos/Tables.vue"
+import Categoria from "../views/Categoria/Tables.vue"
+import Reportes from "../views/Reportes/Tables.vue"
+import Publicacion_Eventos from "../views/Publicaciones_Eventos/Tables.vue"
+import Usuario from "../views/Usuario/Tables.vue"
+import Roles from "../views/Roles/Tables.vue"
 const routes = [
   {
     path: "/",
@@ -23,16 +26,7 @@ const routes = [
     name: "Tables",
     component: Tables,
   },
-  {
-    path: "/billing",
-    name: "Billing",
-    component: Billing,
-  },
-  {
-    path: "/notifications",
-    name: "Notifications",
-    component: Notifications,
-  },
+ 
   {
     path: "/profile",
     name: "Profile",
@@ -48,6 +42,49 @@ const routes = [
     name: "SignUp",
     component: SignUp,
   },
+
+  //ruta eventos
+  {
+    path: "/eventos",
+    name: "Eventos",
+    component: Eventos,
+  },
+
+   //ruta categoria
+   {
+    path: "/categoria",
+    name: "Categoria",
+    component: Categoria,
+  },
+
+   //ruta reportes
+    {
+      path: "/reportes",
+      name: "Reportes",
+      component: Reportes,
+  },
+
+    //ruta publicacion y eventos
+    {
+      path: "/publicacion_eventos",
+      name: "Publicacion_Eventos",
+      component: Publicacion_Eventos,
+  },
+
+    //ruta usuario
+    {
+      path: "/usuario",
+      name: "Usuario",
+      component: Usuario,
+  },
+
+      //ruta roles
+      {
+        path: "/roles",
+        name: "Roles",
+        component: Roles,
+    }
+
 ];
 
 const router = createRouter({

@@ -30,34 +30,91 @@
           </template>
         </sidenav-collapse>
       </li>
+
       <li class="nav-item">
         <sidenav-collapse
           url="#"
           :aria-controls="''"
           v-bind:collapse="false"
-          collapseRef="billing"
-          navText="Billing"
+          collapseRef="Eventos"
+          navText="Eventos"
         >
-          <template v-slot:icon>
-            <i class="material-icons-round opacity-10 fs-5">receipt_long</i>
+          <template >
+            <i class="material-icons-round opacity-10 fs-5">Eventos</i>
           </template>
         </sidenav-collapse>
       </li>
- 
+
       <li class="nav-item">
         <sidenav-collapse
           url="#"
           :aria-controls="''"
           v-bind:collapse="false"
-          collapseRef="notifications"
-          navText="Notifications"
+          collapseRef="Categoria"
+          navText="Categoria"
         >
-          <template v-slot:icon>
-            <i class="material-icons-round opacity-10 fs-5">notifications</i>
+          <template >
+            <i class="material-icons-round opacity-10 fs-5">Categoria</i>
           </template>
         </sidenav-collapse>
       </li>
-      
+
+      <li class="nav-item">
+        <sidenav-collapse
+          url="#"
+          :aria-controls="''"
+          v-bind:collapse="false"
+          collapseRef="Reportes"
+          navText="Reportes"
+        >
+          <template >
+            <i class="material-icons-round opacity-10 fs-5">Reportes</i>
+          </template>
+        </sidenav-collapse>
+      </li>
+
+      <li class="nav-item">
+        <sidenav-collapse
+          url="#"
+          :aria-controls="''"
+          v-bind:collapse="false"
+          collapseRef="Publicacion_Eventos"
+          navText="Publicacion_Eventos"
+        >
+          <template >
+            <i class="material-icons-round opacity-10 fs-5">Publicacion_Eventos</i>
+          </template>
+        </sidenav-collapse>
+      </li>
+
+      <li class="nav-item">
+        <sidenav-collapse
+          url="#"
+          :aria-controls="''"
+          v-bind:collapse="false"
+          collapseRef="Usuario"
+          navText="Usuario"
+        >
+          <template >
+            <i class="material-icons-round opacity-10 fs-5">Usuario</i>
+          </template>
+        </sidenav-collapse>
+      </li>
+
+      <li class="nav-item">
+        <sidenav-collapse
+          url="#"
+          :aria-controls="''"
+          v-bind:collapse="false"
+          collapseRef="Roles"
+          navText="Roles"
+        >
+          <template >
+            <i class="material-icons-round opacity-10 fs-5">Roles</i>
+          </template>
+        </sidenav-collapse>
+      </li>
+
       <li class="nav-item">
         <sidenav-collapse
           url="#"
@@ -98,16 +155,7 @@
         </sidenav-collapse>
       </li>
     </ul>
-    <div class="sidenav-footer position-absolute w-100 bottom-0">
-      <div class="mx-3">
-        <a
-          class="btn mt-4 w-100"
-          :class="`bg-gradient-${this.$store.state.color}`"
-          href="https://www.creative-tim.com/product/vue-material-dashboard-2-pro"
-          >Upgrade to pro</a
-        >
-      </div>
-    </div>
+  
   </div>
 </template>
 <script>
