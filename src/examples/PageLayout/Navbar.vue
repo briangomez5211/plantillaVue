@@ -54,16 +54,7 @@
               Profile
             </router-link>
           </li>
-          <li class="nav-item">
-            <router-link class="nav-link me-2" to="/sign-up">
-              <i
-                class="fas fa-user-circle opacity-6 me-1"
-                aria-hidden="true"
-                :class="isBlur ? 'text-dark' : 'text-white'"
-              ></i>
-              Sign Up
-            </router-link>
-          </li>
+        
           <li class="nav-item">
             <router-link class="nav-link me-2" to="/sign-in">
               <i

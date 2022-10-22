@@ -91,11 +91,11 @@
                   >
                 </div>
                 <p class="mt-4 text-sm text-center">
-                  Don't have an account?
+                  Ya tienes una cuenta?
                   <router-link
-                    :to="{ name: 'SignUp' }"
+                    :to="{ name: 'SignIn' }"
                     class="text-success text-gradient font-weight-bold"
-                    >Sign up</router-link
+                    >Ingresa</router-link
                   >
                 </p>
               </form>

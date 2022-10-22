@@ -41,6 +41,7 @@
                 <tbody>
                   <tr>
                     <td>
+                      //quedo aqui
                       <div class="d-flex px-2 py-1">
                         <div>
                           <img
