@@ -2,6 +2,7 @@
   <!-- Navbar -->
   <nav
     class="top-0 navbar navbar-expand-lg position-absolute z-index-3"
+    style="background-color: #891A89;"
     :class="isBlur ? isBlur : 'shadow-none my-2 navbar-transparent w-100'"
   >
     <div class="container px-0">
@@ -30,31 +31,19 @@
       </button>
       <div class="collapse navbar-collapse" id="navigation">
         <ul class="navbar-nav mx-auto">
+          
+
           <li class="nav-item">
-            <router-link
-              class="nav-link d-flex align-items-center me-2 active"
-              aria-current="page"
-              to="/dashboard"
-            >
+            <router-link class="nav-link me-2" to="/eventos">
               <i
-                class="fa fa-chart-pie opacity-6 me-1"
+                class="fas fa-key opacity-6 me-1"
                 aria-hidden="true"
                 :class="isBlur ? 'text-dark' : 'text-white'"
               ></i>
-              Dashboard
+              Eventos
             </router-link>
           </li>
-          <li class="nav-item">
-            <router-link class="nav-link me-2" to="/profile">
-              <i
-                class="fa fa-user opacity-6 me-1"
-                aria-hidden="true"
-                :class="isBlur ? 'text-dark' : 'text-white'"
-              ></i>
-              Profile
-            </router-link>
-          </li>
-        
+
           <li class="nav-item">
             <router-link class="nav-link me-2" to="/sign-in">
               <i
@@ -62,7 +51,18 @@
                 aria-hidden="true"
                 :class="isBlur ? 'text-dark' : 'text-white'"
               ></i>
-              Sign In
+              Anucios
+            </router-link>
+          </li>
+
+          <li class="nav-item">
+            <router-link class="nav-link me-2" to="/sign-in">
+              <i
+                class="fas fa-key opacity-6 me-1"
+                aria-hidden="true"
+                :class="isBlur ? 'text-dark' : 'text-white'"
+              ></i>
+              Contacto
             </router-link>
           </li>
         </ul>

@@ -79,7 +79,7 @@
               
                 
                 <material-switch id="rememberMe" name="rememberMe"
-                  >Remember me</material-switch
+                  >Recordar</material-switch
                 >
                 <div class="text-center">
                   <material-button
